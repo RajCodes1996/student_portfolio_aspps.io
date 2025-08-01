@@ -11,7 +11,7 @@ document.addEventListener("DOMContentLoaded", function () {
     },
     sneha: {
       name: "Sneha Gour",
-      image: "snehaa.pg",
+      image: "snehaa.jpg",
       about: "Aspiring software engineer with a passion for programming and web development.",
       academics: "Class 12th - Science (Computer stream)",
       projects: ["Weather App using Python", "Portfolio Website"],
