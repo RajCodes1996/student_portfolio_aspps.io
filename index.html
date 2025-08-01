@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Class 12 - Student Portfolios</title>
+  <link rel="stylesheet" href="style.css"/>
+  <style>
+    body {
+  font-family: 'Segoe UI', sans-serif;
+  background-color: #f0f4f8;
+  margin: 0;
+  padding: 0;
+  text-align: center;
+}
+
+header {
+  background-color: #003366;
+  color: white;
+  padding: 20px;
+}
+
+nav button {
+  margin: 10px;
+  padding: 10px 20px;
+  background-color: #006699;
+  border: none;
+  color: white;
+  font-size: 16px;
+  cursor: pointer;
+  border-radius: 5px;
+}
+
+nav button:hover {
+  background-color: #005580;
+}
+
+.profile {
+  max-width: 800px;
+  margin: 30px auto;
+  background-color: white;
+  padding: 30px;
+  border-radius: 10px;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+}
+
+.profile img {
+  width: 150px;
+  border-radius: 50%;
+  margin-bottom: 20px;
+}
+
+h2 {
+  color: #003366;
+}
+
+h3 {
+  margin-top: 20px;
+  color: #006699;
+}
+
+ul {
+  list-style: none;
+  padding: 0;
+}
+
+  </style>
+</head>
+<body>
+  <header>
+    <h1>Class 12 - Student Portfolio</h1>
+    <nav>
+      <button onclick="showProfile('disha')">Disha Namdeo</button>
+      <button onclick="showProfile('sneha')">Sneha Gour</button>
+      <button onclick="showProfile('bhavishya')">Bhavishya Singh Thakur</button>
+    </nav>
+  </header>
+
+    <section id="portfolioContainer">
+    <div class="profile">
+      <img src="images/disha.jpg" alt="Disha Namdeo" />
+      <h2>Disha Namdeo</h2>
+      <p><strong>About Me:</strong> I am a passionate learner with an interest in biology and environmental science.</p>
+      <p><strong>Academic Info:</strong> Class 12th - Science (Biology stream)</p>
+      <h3>Projects:</h3>
+      <ul>
+        <li>Plant Cell Model</li>
+        <li>Environmental Impact Report</li>
+      </ul>
+      <h3>Hobbies:</h3>
+      <ul>
+        <li>Sketching</li>
+        <li>Reading novels</li>
+        <li>Volunteering for eco clubs</li>
+      </ul>
+      <p><strong>Contact:</strong> disha12@gmail.com</p>
+    </div>
+  </section>
+
+  <script src="script.js">
+    
+  </script>
+</body>
+</html>
