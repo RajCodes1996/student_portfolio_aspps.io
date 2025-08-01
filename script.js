@@ -2,7 +2,7 @@ document.addEventListener("DOMContentLoaded", function () {
   const profiles = {
     disha: {
       name: "Disha Namdeo",
-      image: "images/disha.jpg",
+      image: "disha.jpg",
       about: "I am a passionate learner with an interest in biology and environmental science.",
       academics: "Class 12th - Science (Biology stream)",
       projects: ["Plant Cell Model", "Environmental Impact Report"],
@@ -11,7 +11,7 @@ document.addEventListener("DOMContentLoaded", function () {
     },
     sneha: {
       name: "Sneha Gour",
-      image: "images/sneha.png",
+      image: "sneha.png",
       about: "Aspiring software engineer with a passion for programming and web development.",
       academics: "Class 12th - Science (Computer stream)",
       projects: ["Weather App using Python", "Portfolio Website"],
@@ -20,7 +20,7 @@ document.addEventListener("DOMContentLoaded", function () {
     },
     bhavishya: {
       name: "Bhavishya Singh Thakur",
-      image: "images/bhavishya.jpg",
+      image: "bhavishya.jpg",
       about: "Creative and analytical student with an interest in physics and robotics.",
       academics: "Class 12th - Science (Maths stream)",
       projects: ["Line Following Robot", "Physics Quiz Game"],
